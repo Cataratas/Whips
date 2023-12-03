@@ -24,6 +24,7 @@
   "mixins": [
     "whips.mixins.json"
   ],
+  "accessWidener" : "whips.accesswidener",
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
