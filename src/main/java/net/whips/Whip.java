@@ -23,6 +23,7 @@ public class Whip extends SwordItem {
 
         if (target instanceof VillagerEntity) {
             ((VillagerEntity) target).getGossip().removeGossip(attacker.getUuid(), VillageGossipType.MINOR_NEGATIVE, 25);
+            ((VillagerEntity) target).getGossip().removeGossip(attacker.getUuid(), VillageGossipType.MAJOR_NEGATIVE, 25);
             ((VillagerEntity) target).getGossip().startGossip(attacker.getUuid(), VillageGossipType.MINOR_POSITIVE, 25);
         }
 
