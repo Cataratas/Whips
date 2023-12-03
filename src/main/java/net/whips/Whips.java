@@ -10,7 +10,7 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 
 public class Whips implements ModInitializer {
-    public static final Item WHIP = new Whip(ToolMaterials.WOOD, 2, 1.5f, new FabricItemSettings());
+    public static final Item WHIP = new Whip(ToolMaterials.WOOD, 0, 3f, new FabricItemSettings());
 
     public static final Identifier WHIP_SOUND = new Identifier("whips:whip_sound");
     public static SoundEvent WHIP_SOUND_EVENT = SoundEvent.of(WHIP_SOUND);
