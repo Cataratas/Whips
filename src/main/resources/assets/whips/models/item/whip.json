@@ -1,0 +1,13 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "whips:item/whip"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [30, 90, 0],
+      "translation": [0, 2, 0],
+      "scale": [0.7, 0.7, 0.7]
+    }
+  }
+}

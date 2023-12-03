@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "whips",
+  "version": "${version}",
+  "name": "Whips",
+  "description": "Teach villagers a lesson!",
+  "authors": [
+    "Cataratas"
+  ],
+  "contact": {
+    "repo": "https://github.com/Cataratas/Whips"
+  },
+  "license": "MIT",
+  "icon": "assets/whips/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.whips.client.WhipsClient"
+    ],
+    "main": [
+      "net.whips.Whips"
+    ]
+  },
+  "mixins": [
+    "whips.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
