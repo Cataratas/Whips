@@ -17,7 +17,7 @@ public class Whip extends SwordItem {
 
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        attacker.getWorld().playSound(null, attacker.getX(), attacker.getY(), attacker.getZ(), WHIP_SOUND_EVENT, SoundCategory.HOSTILE, 1.5f, 1.0F / (attacker.getWorld().random.nextFloat() * 0.4F + 1.2F) + 0.5F);
+        attacker.getWorld().playSound(null, attacker.getX(), attacker.getY(), attacker.getZ(), WHIP_SOUND_EVENT, SoundCategory.HOSTILE, 5f, 1.0F / (attacker.getWorld().random.nextFloat() * 0.4F + 1.2F) + 0.5F);
 
         return super.postHit(stack, target, attacker);
     }
