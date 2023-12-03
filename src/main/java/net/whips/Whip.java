@@ -8,5 +8,4 @@ public class Whip extends SwordItem {
     public Whip(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Item.Settings settings) {
         super(toolMaterial, attackDamage, attackSpeed, settings);
     }
-
 }
